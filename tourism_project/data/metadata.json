@@ -1,0 +1,64 @@
+{
+  "dataset_shape": [
+    4128,
+    20
+  ],
+  "features": [
+    "Unnamed: 0",
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "target": "ProdTaken",
+  "train_size": 3302,
+  "test_size": 826,
+  "class_distribution": {
+    "train": {
+      "0": 2664,
+      "1": 638
+    },
+    "test": {
+      "0": 667,
+      "1": 159
+    }
+  },
+  "categorical_features_encoded": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "numerical_features": [
+    "Unnamed: 0",
+    "ProdTaken",
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ]
+}
