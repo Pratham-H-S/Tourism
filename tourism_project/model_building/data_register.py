@@ -7,8 +7,9 @@ print("HUGGING FACE DATA REGISTRATION")
 print("="*80)
 
 # Get token from environment
-HF_TOKEN = os.getenv("HF_TOKEN")
-os.environ['HF_TOKEN'] = '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'
+HF_TOKEN = HfApi(token=os.getenv("HF_TOKEN"))
+# api = HfApi(token=os.getenv("HF_TOKEN"))
+# os.environ['HF_TOKEN'] = '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'
 if not HF_TOKEN:
     print("❌ Error: HF_TOKEN environment variable not set")
     print("\nTo fix this:")
