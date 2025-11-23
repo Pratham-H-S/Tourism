@@ -29,7 +29,6 @@ print("="*80)
 HF_TOKEN = os.getenv("HF_TOKEN")
 if not HF_TOKEN:
     print("⚠️ HF_TOKEN not set")
-    os.environ['HF_TOKEN'] = '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'
     HF_TOKEN = os.getenv("HF_TOKEN")
 
 USERNAME = "DD009"
