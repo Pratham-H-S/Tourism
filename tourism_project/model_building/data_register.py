@@ -8,7 +8,7 @@ print("="*80)
 
 # Get token from environment
 HF_TOKEN = os.getenv("HF_TOKEN")
-
+os.environ['HF_TOKEN'] = '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'
 if not HF_TOKEN:
     print("❌ Error: HF_TOKEN environment variable not set")
     print("\nTo fix this:")
