@@ -12,7 +12,6 @@ from huggingface_hub import login, HfApi, hf_hub_download
 import joblib
 import pickle
 
-os.environ['HF_TOKEN'] = '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'
 HF_TOKEN = os.getenv("HF_TOKEN")
 api = HfApi(token=HF_TOKEN)
 
